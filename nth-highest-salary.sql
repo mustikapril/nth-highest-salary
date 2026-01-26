@@ -132,7 +132,7 @@ FROM salary_data_49 o1
 left JOIN salary_data_49 o2
 on (o1.salary < o2.salary) 
 group by 1,2,3
-order by 4
+order by 5
 
 
 ---- dense_rank()
